@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<!--This is an example of a comment-->
+<html>
+
+    <head>
+        <title>RI Password Checker</title>
+        <link rel="stylesheet" href="styles.css">
+        <script src="scripts.js"></script>
+    </head>
+
+    <body>
+
+        <img src="eton.png" alt="Eton Crest" id="eton">
+
+        <div class="pchecker"> <!--Everything is inside this div-->
+            <img src="fdl.png" alt="RI Logo" id="riImage"> <!--This image has it's own ID-->
+            <h1>RI Password Checker</h1>
+
+            <div class="passwordBox">
+                <input type="password" name="password" id="thePassword" placeholder="Your Password">
+            </div>
+            
+            <input type="button" name="passwordButton" value="Test Password" id="theButton" onclick="testPassword(document.getElementById('thePassword').value)">
+            <input type="button" name="generateButton" value="Generate Password" id="theGenerateButton" onclick="generatePassword()">
+        </div>
+
+    </body>
+</html>
