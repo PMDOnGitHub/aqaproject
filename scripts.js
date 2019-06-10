@@ -84,7 +84,7 @@ function testForSymbols(password){
         resultsText = resultsText + ", there are symbols";
         return 5
     }else{
-        resultsText = resultsText + ", there are no symbols";
+        resultsText = resultsText + ", there are no allowed symbols";
         return 0
     }
 }
