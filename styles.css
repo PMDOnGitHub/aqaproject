@@ -1,0 +1,122 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: url(background.png) no-repeat;
+    background-size: cover;
+    background-color: #222e47;
+}
+
+#eton{
+    width: 180px;
+    height: 60px;
+    position: fixed;
+    right: 10px;
+    top: 10px;
+    opacity: .3;
+    filter: invert(1);
+}
+
+.pchecker{
+    width: 700px;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;  
+}
+
+#riImage{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    opacity: .7;
+}
+
+.passwordBox{
+    width: 100%;
+    overflow: hidden;
+    font-size: 20px;
+    padding: 8px 0;
+    margin: 8px 0;
+    border-bottom: 1px solid goldenrod;
+}
+
+.passwordBox input{
+    width: 100%;
+    text-align: center;
+    border: none;
+    outline: none;
+    background: white;
+    color: black;
+    font-size: 40px;
+    float: left;
+    border-radius: 50%;
+}
+
+#theButton{
+    width: 100%;
+    background: none;
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 30px;
+  }
+
+#theGenerateButton{
+    width: 100%;
+    background: none;
+    background-color: rebeccapurple; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 30px;
+    margin-top: 5px;
+}
+
+.results{
+    width: 700px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;  
+}
+
+.showResult{
+    background-color: rgba(0, 0, 10, 0.5);
+    width: 100%;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+h3{
+    color: white;
+    font-size: 45px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    text-align: center;
+    font-size: 65px;
+    color: white;
+    padding-bottom: 10px;
+    border-bottom: 15px dotted hotpink;
+    margin-bottom: 25px;
+    text-shadow: 4px 3px black;
+}
+
+
+

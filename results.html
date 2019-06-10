@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<!--This is an example of a comment-->
+<html>
+    
+    <head>
+        <title>RI Password Checker: Results</title>
+        <link rel="stylesheet" href="styles.css">
+        <script src="scripts.js"></script>
+    </head>
+
+    <body onload="showText()"> <!--This calls the JS to show the results of the test-->
+        
+        <img src="eton.png" alt="Eton Crest" id="eton">
+
+        <div class="results"> <!--Main wrapper-->
+
+            <img src="fdl.png" alt="RI Logo" id="riImage"> <!--Has it's own ID-->
+            <h1>RI Password Result</h1>
+
+            <div class="showResult">
+
+                    <h3 id="resultsText"></h3>
+                    <h4></h4>
+                    <input type="button" name="testAgain" value="Test Another Password" id="theButton" onclick="resetPage()">
+            
+            </div>
+        </div>
+
+    </body>
+</html>
